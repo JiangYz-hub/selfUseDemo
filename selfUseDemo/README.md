@@ -1,2 +1,0 @@
-# selfUseDemo
-self-use-demo

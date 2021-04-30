@@ -3,7 +3,7 @@
     <div class="content">
       <div><input type="text" v-model="loginForm.username" placeholder="用户名"/></div>
       <div><input type="text" v-model="loginForm.password" placeholder="密码"/></div>
-      <button class="btn-hollow" @click="login">登录</button>
+      <el-button class="btn-hollow" @click="login">登录</el-button>
     </div>
   </div>
 </template>
@@ -35,7 +35,7 @@
         //     console.log('错误')
         //   }
         // });
-        this.$router.push('/home');
+        this.$router.push('/sqlGeneration');
       },
     },
   }
