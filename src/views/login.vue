@@ -3,7 +3,7 @@
     <div class="content">
       <div><input type="text" v-model="loginForm.username" placeholder="用户名"/></div>
       <div><input type="text" v-model="loginForm.password" placeholder="密码"/></div>
-      <el-button class="btn-hollow" @click="login">登录</el-button>
+      <el-button class="btn-hollow confirm" @click="login">登录</el-button>
     </div>
   </div>
 </template>
@@ -41,8 +41,25 @@
   }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
   .login {
-    background-color: aliceblue;
+    height: 100%;
+    position: relative;
+    .content {
+      height: 300px;
+      width: 600px;
+      margin: 0 auto;
+      position: absolute;
+      left: 800px;
+      top: 300px;
+      transform: translate(-50%,-50%);
+      background-color: #c2cb81;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      padding: 20px;
+    }
   }
 </style>

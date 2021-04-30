@@ -1,0 +1,33 @@
+@import './variables.scss';
+@import './customize.scss';
+* {
+  padding: 0;
+  margin: 0;
+}
+html, body{
+  height: 100%;
+  margin: 0;
+  text-align: center;
+}
+div {
+  color: #6ab767;
+}
+
+.confirm.el-button {
+  background-color: #fa8a89;
+  padding: 10px 20px;
+  color: #fff;
+  width: 90px;
+  margin: 0 auto;
+}
+.confirm.el-button:hover {
+  color: #fa8a89;
+  border-color: #fff;
+  background-color: #fff;
+}
+
+input {
+  width: 100%;
+  height: 32px;
+  margin-top: 10px;
+}

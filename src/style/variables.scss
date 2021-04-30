@@ -1,0 +1,137 @@
+// Standard color
+$pattens-blue: #f7fafc;
+$link-water: #e4eff6;
+$mabel: #d6f4ff;
+$aquamarine-blue: #7ec6e1;
+$deep-sky-blue: #00aff5;
+$cerulean: #00adef;
+$lochmara: #0198d4;
+$deep-cerulean: #0079a9;
+$surfie-green: #0d698c;
+$moss-green: #a0d39e;
+$meteor: #c46f0d;
+$chamois: #ebdca9;
+$egg-white: #fff5c1;
+$cinnabar: #e84522;
+$watusi: #ffd7cf;
+$black: #000;
+$light-black: #100f0fd9;
+$dark-grey: #18191a;
+$mine-shaft: #333;
+$dove-gray: #666;
+$dusty-gray: #999;
+$middle-gray: #979797;
+$silver: #ccc;
+$alto: #ddd;
+$gallery: #eee;
+$wild-sand: #f4f4f4;
+$white: #fff;
+$orange: #ec7f00;
+$crimson: #e34f13;
+$green: #6ab767;
+$snow-white: #f9f9f9;
+$harbor-gray: #f2f2f2;
+$search-criteria-gray: #808080;
+$yellowish-orange: #faad14;
+$cool-grey: #919598;
+$pale-grey: #f7f7f8;
+$pale-grey-two: #e5e5ea;
+$battleship-grey: #6d777f;
+$alizarin-red: #ed1c25;
+$pale-sky-blue: #d9dee1;
+$butterscotch: #ffae38;
+$malibu: #66afe9;
+$checkbox-bgcolor: #d0d0d0;
+$checkbox-border: #d8d8d8;
+$pagination-disabled-color: #BFBFBF;
+$table-border: #e8e8e8;
+
+/*
+  deprecated, only use Standard color
+*/
+
+$lake-blue: #02adf0;
+$science-blue: #05ACF0;
+$green: #7ed321;
+$green-bg: #13cfa5;
+$green-dark: #04c179;
+$orange: #f5a623;
+$pinkish-orange: #fb6f51;
+$orange-light: #fdc263;
+$price-green: #14cfa5;
+$pale-lime: #b8e986;
+$gray-little-darker: #9b9b9b;
+$gray-little-darker-label: #9d9d9d;
+$gray-darkest: #1d2439;
+$gray-darker: #364760;
+$gray-lighter: #e6e6e6;
+$fuscous: #3c3c3c;
+$text-muted: #80899c;
+$dark-blue: #566979;
+$selected-color: #fff3b8;
+$gray-brown: #4a4a4a;
+$border-gray-light: #e9e9e9;
+$disabled-gray: #e4e4e4;
+$disabled-gray-darker: #c8c8c8;
+$light-sky-blue: #cef4ff;
+$pale-grey-four: #eceef0;
+
+$dividing-line: #ececec;
+$table-line-height: 40px;
+$header-height: 60px;
+$footer-height: 28px;
+$content-height: calc(100vh - #{$header-height});
+$content-height-without-footer: calc(100vh - #{$header-height} - 28px);
+$border-radius: 2px;
+$border-radius-sm: 2px;
+$border-radius-lg: 2px;
+$tab-height: 42px;
+
+// 大字体优先使用微软雅黑
+$font-family-sans-serif: '微软雅黑', 'Microsoft Yahei', 'Hiragino Sans GB', Helvetica, Arial, sans-serif;
+// 英文和数字的字体优先使用细体字
+$font-family-serif: 'Open Sans', '微软雅黑', 'Microsoft Yahei', 'Hiragino Sans GB', 'Helvetica Neue', Helvetica, serif;
+
+$font-size-root: 12px;
+
+$font-sm: 12px;
+$font-md: 16px;
+
+$font-color-primary: $mine-shaft;
+$font-color-secondary: $middle-gray;
+
+$btn-primary-bg: $cerulean;
+$btn-primary-hover: $lochmara;
+$btn-primary-active: $deep-cerulean;
+$btn-success-bg: #13cfa5;
+$btn-success-hover: #11b994;
+$btn-default-bg: #d7dce5;
+$btn-default-hover: #ccd1da;
+$btn-danger-bg: #fe0042;
+$btn-danger-hover: #cb0035;
+$btn-disable: #9b9b9b;
+$error-message: $cinnabar;
+$error-bg: $watusi;
+$disable-background: #f9f9f9;
+$top-z-index: 9999;
+$z-index-99: 99;
+$question-circle: $middle-gray;
+$btn-border: $silver;
+$btn-disabled: #f2f2f2;
+$border-disable-color: $disabled-gray;
+$placeholder-disable-color: $silver;
+$pale-olive-green: #8fd78c;
+$data-alert: #ff8351;
+
+$shadow-light: rgba(0, 0, 0, 0.15);
+$shadow-medium: rgba(0, 0, 0, 0.25);
+$shadow-heavy: rgba(0, 0, 0, 0.4);
+
+// sidebar width
+$sidebar-expanded-width: 190px;
+$sidebar-collapsed-width: 60px;
+
+// min width breakpoints for devices
+$breakpoint_small_tablet_landscape: 768px;
+$breakpoint_large_tablet_landscape: 1024px;
+$breakpoint_laptop_and_desktop: 1280px;
