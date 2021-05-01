@@ -53,8 +53,8 @@
       left: 800px;
       top: 300px;
       transform: translate(-50%,-50%);
-      background-color: #c2cb81;
-
+      /*background-color: #c2cb81;*/
+      box-shadow: 1px 1px 1px 4px #ccc;
       display: flex;
       flex-direction: column;
       justify-content: center;

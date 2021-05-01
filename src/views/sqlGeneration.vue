@@ -7,7 +7,7 @@
       :on-change="checkFile"
       :show-file-list="false">
       <el-button size="small" type="primary">点击上传</el-button>
-      <div slot="tip" class="el-upload__tip">upload__tip</div>
+      <div slot="tip" class="el-upload__tip">仅可上传excel文件，文件大小不超过2M</div>
     </el-upload>
     <el-button size="small" type="primary" @click="download">下载TXT模板</el-button>
   </div>
