@@ -33,3 +33,36 @@ input {
   border: 1px solid #ccc;
   box-shadow: 0 0 1px 1px #ccc inset;
 }
+
+.el-menu--popup {
+  display: flex;
+  border-radius: 10px;
+  border: 3px #5f936a solid;
+}
+.el-menu--popup-bottom-start {
+  margin-top: -5px;
+}
+
+.el-menu--horizontal>.el-menu-item,
+.el-menu--horizontal>.el-submenu .el-submenu__title {
+  font-weight: 700;
+  color: #ccc;
+  background: initial;
+  width: 120px;
+}
+
+.el-menu--horizontal>.el-submenu:focus .el-submenu__title, .el-menu--horizontal>.el-submenu:hover .el-submenu__title,
+.el-menu--horizontal .el-menu-item:not(.is-disabled):focus, .el-menu--horizontal .el-menu-item:not(.is-disabled):hover{
+  font-weight: 700;
+  color: #fff;
+  background: initial;
+  border-bottom-color: #fff!important;
+}
+
+.el-menu--horizontal>.el-menu-item.is-active,
+.el-menu--horizontal>.el-submenu.is-active .el-submenu__title{
+  color: #fff;
+  font-weight: 700;
+  border-bottom: 2px solid #fff;
+  background-color: initial;
+}
